@@ -1,0 +1,24 @@
+### READ all notes
+GET http://localhost:3005/notes
+
+### READ a single note
+GET http://localhost:3005/notes/13
+
+### CREATE a note
+POST http://localhost:3005/notes
+Content-Type: application/json
+
+{
+  "content": "play dota2"
+}
+
+### UPDATE a note
+PUT http://localhost:3005/notes/17
+Content-Type: application/json
+
+{
+  "content": "play even more dota2"
+}
+
+### DELETE a note
+DELETE http://localhost:3005/notes/14
