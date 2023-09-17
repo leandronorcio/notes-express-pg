@@ -1,5 +1,5 @@
 {
-  "name": "todo-express-pg",
+  "name": "notes-express-pg",
   "version": "1.0.0",
   "description": "An Express Rest API with PostgreSQL as its database. Built using TypeScript.",
   "main": "index.js",
